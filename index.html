@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/TheGoldsmithVintage.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,10 +34,10 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.html " class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!--<img src="assets/img/logo.png" alt="">-->
-        <h1 class="sitename">Robyn Milton, MD</h1>
+        <h1 class="sitename goldsmith-font large-text">Robyn Mary Milton, MD</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -73,24 +74,18 @@
   <main class="main">
 
     <!-- About Section -->
-    <section id="about" class="about section light-background">
+    <section id="about" class="about section">
       <a id="home"></a>
       <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-5 mb-lg-0 order-lg-0" data-aos="fade-up" data-aos-delay="400">
+          </div>
+          <div class="col-lg-4 mb-5 mb-lg-0 order-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="img">
-                <img src="assets/img/robyn_bench.jpg" alt="circle image" class="img-fluid">
+              <img src="assets/img/robyn-logo-colour-2.png" alt="circle image" class="img-fluid">
             </div>
           </div>
-          <div class="col-lg-4 order-lg-1">
-            <span class="section-subtitle" data-aos="fade-up">Hi!</span>
-            <h1 class="mb-4" data-aos="fade-up">
-              I'm Dr Robyn
-            </h1>
-            <p data-aos="fade-up">
-              A medical practitioner serving Cape Town. This is additional
-              text put in so it doesn't look so damn sparse!
-            </p>
+          <div class="col-lg-4 mb-5 mb-lg-0 order-lg-0" data-aos="fade-up" data-aos-delay="400">
           </div>
         </div>
       </div>
@@ -99,13 +94,13 @@
     <!-- About 2 Section -->
     <section id="about-2" class="about-2 section light-background">
         <a id="about"></a>
-      <div class="container">
+      <div class="container ">
         <div class="content">
           <div class="row justify-content-center">
             <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
               <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
                 <div class="img">
-                    <img src="assets/img/img_v_3.jpg" alt="circle image" class="img-fluid">
+                    <img src="assets/img/robyn_bench.jpg" alt="circle image" class="img-fluid">
                   </div>
               </div>
             </div>
@@ -122,9 +117,6 @@
                 </p>
                 <p class="mb-5">
                   I strive to leave everyone better than I found them.
-                </p>
-                <p>
-                  <a href="#" class="btn-get-started">Get Started</a>
                 </p>
               </div>
             </div>
@@ -146,8 +138,15 @@
                 </div>
                 <div>
                 <h3>Healthcare</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast</p>
-                </div>
+                <p>Separated they live in Bookmarksgrove riasdght at the coast</p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">click for more infomation</a>
+              
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>  
+              </div>
             </div>
         </div>
 
@@ -191,6 +190,7 @@
         </div>
       </div>
     </section><!-- /Services Section -->
+
 
 
     <!-- Faq Section -->
